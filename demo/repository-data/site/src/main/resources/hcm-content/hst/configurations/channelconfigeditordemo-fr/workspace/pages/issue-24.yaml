@@ -1,0 +1,24 @@
+/hst:hst/hst:configurations/channelconfigeditordemo-fr/hst:workspace/hst:pages/issue-24:
+  jcr:primaryType: hst:component
+  hst:referencecomponent: hst:abstractpages/base
+  /main:
+    jcr:primaryType: hst:component
+    hst:template: issue24-main
+    /grid-section-1:
+      jcr:primaryType: hst:component
+      hst:template: grid-row
+      /container:
+        jcr:primaryType: hst:containercomponent
+        hippo:identifier: 4f280420-784b-4891-9552-ec9a6c1bed0b
+        hst:lastmodified: 2021-11-02T12:39:39.270Z
+        /simplecontent:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+          hst:iconpath: images/essentials/catalog-component-icons/simple-content.svg
+          hst:label: Simple Content
+          hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+          hst:parametervalues: [test/simple-doc, 'webfile:/freemarker/hstdefault/contentpage-main.ftl']
+          hst:template: contentpage-main
+    /grid-section-2:
+      jcr:primaryType: hst:component
+      hst:template: grid-row

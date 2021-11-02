@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/channelconfigeditordemo-fr/hst:workspace/hst:components/container:
+  jcr:primaryType: hst:containercomponent
+  hippo:identifier: 19291f98-ec5a-465e-994d-afc4b87edeb6
+  hst:label: Container
+  hst:xtype: hst.vbox

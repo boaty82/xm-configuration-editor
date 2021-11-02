@@ -3,7 +3,7 @@ definitions:
     /hst:hst/hst:configurations/channelconfigeditordemo-fr/hst:workspace:
       jcr:primaryType: hst:workspace
       jcr:mixinTypes: ['dxphst:mergeable']
-      dxphst:treehash: 900A798ABC3507A369C6D9768D909A37
+      dxphst:treehash: A0EE0AF561991DB57B87054054B18005
       /hst:containers:
         jcr:primaryType: hst:containercomponentfolder
         /base:
@@ -28,6 +28,7 @@ definitions:
             hst:label: Home Page Main
             hst:xtype: hst.vbox
             hippo:identifier: e768b10d-07c5-4864-8f8b-e2082d468a08
+            hst:lastmodified: 2021-11-02T12:39:39.270Z
         /pagenotfound:
           jcr:primaryType: hst:containercomponentfolder
           /main:
@@ -73,3 +74,6 @@ definitions:
         /main:
           .meta:residual-child-node-category: content
           jcr:primaryType: hst:sitemenu
+      /hst:components:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:components

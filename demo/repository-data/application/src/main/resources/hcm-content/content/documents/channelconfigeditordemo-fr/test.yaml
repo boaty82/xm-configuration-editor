@@ -1,0 +1,73 @@
+/content/documents/channelconfigeditordemo-fr/test:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 655ebab9-0a63-4521-848c-35ed8cfc2b2f
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 55a5e4d6-3ed9-43f8-b1e2-79f9e0ea4d57
+  hippotranslation:locale: fr
+  /simple-doc:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 8c42826e-9a5c-4794-a09c-9aa8a78c0890
+    hippo:versionHistory: 47411820-8fa0-4f37-bb02-6f1a1b2b3b30
+    /simple-doc[1]:
+      jcr:primaryType: channelconfigeditordemo:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c431abca-342a-4e34-9d02-f69f9d047e49
+      channelconfigeditordemo:introduction: Simple Doc Intro
+      channelconfigeditordemo:publicationdate: 0001-01-01T13:00:00+01:00
+      channelconfigeditordemo:title: Simple Doc Title
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-11-02T12:18:23.182Z
+      hippostdpubwf:lastModificationDate: 2021-11-02T12:18:38.748Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b8c25daf-e4df-4ce0-8be6-c21ec28b3b31
+      hippotranslation:locale: fr
+      /channelconfigeditordemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Simple Doc Conten</p>
+    /simple-doc[2]:
+      jcr:primaryType: channelconfigeditordemo:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 686cdb8c-f1fd-4c4c-8227-d725114f3267
+      channelconfigeditordemo:introduction: Simple Doc Intro
+      channelconfigeditordemo:publicationdate: 0001-01-01T13:00:00+01:00
+      channelconfigeditordemo:title: Simple Doc Title
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-11-02T12:18:23.182Z
+      hippostdpubwf:lastModificationDate: 2021-11-02T12:18:38.466Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b8c25daf-e4df-4ce0-8be6-c21ec28b3b31
+      hippotranslation:locale: fr
+      /channelconfigeditordemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Simple Doc Conten</p>
+    /simple-doc[3]:
+      jcr:primaryType: channelconfigeditordemo:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8f582568-b707-40c0-8f3f-d01b5fc1d362
+      channelconfigeditordemo:introduction: Simple Doc Intro
+      channelconfigeditordemo:publicationdate: 0001-01-01T13:00:00+01:00
+      channelconfigeditordemo:title: Simple Doc Title
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-11-02T12:18:23.182Z
+      hippostdpubwf:lastModificationDate: 2021-11-02T12:18:38.466Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-11-02T12:18:41.474Z
+      hippotranslation:id: b8c25daf-e4df-4ce0-8be6-c21ec28b3b31
+      hippotranslation:locale: fr
+      /channelconfigeditordemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Simple Doc Conten</p>

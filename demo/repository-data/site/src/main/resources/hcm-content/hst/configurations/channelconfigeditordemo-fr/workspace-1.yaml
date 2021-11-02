@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/channelconfigeditordemo-fr/hst:workspace/hst:components/row:
+  jcr:primaryType: hst:containercomponent
+  hippo:identifier: e5b84628-812c-4453-bb70-b907b4bc2251
+  hst:label: Row
+  hst:xtype: hst.vbox
